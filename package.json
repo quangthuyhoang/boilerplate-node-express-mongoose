@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start" : "nodemon server.js",
+    "prod" : "set NODE_ENV=production",
     "test": "test"
   },
   "author": "Quang-Thuy Hoang",
