@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate-node-express-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "test"
+  },
+  "author": "Quang-Thuy Hoang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "dotenv": "^5.0.1",
+    "body-parser": "^1.18.2",
+    "nodemon": "^1.17.3"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0",
+    "eslint": "^4.19.1",
+    "morgan": "^1.9.0"
+  }
+}
