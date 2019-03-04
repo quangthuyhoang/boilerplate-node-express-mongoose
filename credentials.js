@@ -3,10 +3,10 @@ require('dotenv').load();
 module.exports = {
   mongo: {
     development: {
-      connectionString: process.env.development,
+      connectionString: process.env.development, //local mongodb
     },
     production: {
-      connectionString: process.env.production
+      connectionString: process.env.production // mlab
     }
   }
 };
