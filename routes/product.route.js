@@ -13,7 +13,7 @@ router.delete('/', product_controller.delete);
 router.get('/product/:id', product_controller.product_find);
 router.post('/product/create', product_controller.product_create);
 router.put('/product/:id', product_controller.product_update_by_id);
-
+router.delete('/product/:id', product_controller.product_delete);
 
 
 

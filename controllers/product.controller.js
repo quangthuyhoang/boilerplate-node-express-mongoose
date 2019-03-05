@@ -74,15 +74,13 @@ exports.product_find = function (req, res, next) {
 
 // TODOS: need to make delete
 exports.product_delete = function (req, res, next) {
-  Product.create(
+  Product.findByIdAndDelete(
     {
-      name: req.body.name,
-      price: req.body.price
+      _id: req.params.id
     }, function(err, results) {
       if(err) {
         res.status(400).send(err)
       }
-   
       res.status(200).send(results)
     }
   )
